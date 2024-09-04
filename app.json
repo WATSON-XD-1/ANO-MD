@@ -1,0 +1,50 @@
+{
+  "name": "𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓",
+  "description": "WhatsApp Bot Base using Baileys. Written in javascript developed by silva tech, shizo, xei and lazack",
+  "keywords": [
+    "whatsapp bot",
+    "ShizoBot",
+    "WaBot",
+    "oreo-bot",
+    "Termux-WaBot",
+    "WaBot-Base"
+  ],
+"env": {
+      "PREFIX": {
+      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
+      "required": false,
+      "value": ""
+    },
+    "statusview": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": ""
+    },
+    "antidelete": {
+      "description": "bot will forward deleted messages if you make it true",
+      "required": false,
+      "value": "false"
+    },
+"OWNER_NAME": {
+      "description": "owner name of the bot or Your Name",
+      "required": false,
+      "value": ""
+}
+    },
+ "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
