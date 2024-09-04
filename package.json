@@ -1,5 +1,5 @@
 { 
-    "name": "silva-md-bot",
+    "name": "ANO-MD",
     "version": "3.2.2",
     "description": "WhatsApp Bot created with the help of ShizoBot-base using Baileys. Written in javascript",
     "main": "index.js",
@@ -20,17 +20,19 @@
     "WaBot",
     "Termux-WaBot",
     "WaBot-Base"
+    "ANO-MD"
+    "ano-md"
   ],
-    "homepage": "https://github.com/SilvaTechB/silva-md-bot",
+    "homepage": "https://github.com/WATSON-XD1/ANO-MD",
     "author": {
         "name": "shizo"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SilvaTechB/silva-md-bot.git"
+        "url": "git+https://github.com/WATSON-XD1/ANO-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/SilvaTechB/silva-md-bot/issues"
+        "url": "https://github.com/WATSON-XD1/ANO-MD/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
@@ -97,4 +99,4 @@
         "imgur": "*",
         "google-it": "*" 
 }
-    }
+}
