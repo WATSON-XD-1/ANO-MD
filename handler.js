@@ -66,7 +66,7 @@ export async function handler(chatUpdate) {
         }
         //--user number
         if (!isNumber(user.afk)) user.afk = -1
-        if (!('afkReason' in user)) user.afkReason = '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 user offline'
+        if (!('afkReason' in user)) user.afkReason = 'ANO 𝐌𝐃 𝐁𝐎𝐓 user offline'
         if (!('banned' in user)) user.banned = false
         if (!isNumber(user.warn)) user.warn = 0
         if (!isNumber(user.level)) user.level = 0
@@ -389,7 +389,7 @@ export async function handler(chatUpdate) {
           plugin.credit &&
           global.db.data.users[m.sender].credit < plugin.credit * 1
         ) {
-          this.reply(m.chat, `🟥 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 alert\nYou don't have enough gold`, m)
+          this.reply(m.chat, `🟥 ANO 𝐌𝐃 𝐁𝐎𝐓 alert\nYou don't have enough gold`, m)
           continue // Gold finished
         }
         if (plugin.level > _user.level) {
@@ -574,10 +574,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃',
+                    title: 'ANO MD',
                     body: 'welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v',
+                    sourceUrl: 'https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -601,7 +601,7 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+            pp = 'https://telegra.ph/file/b7ae2db82899be94fb9c0.jpg' // Assign default image URL
             ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
@@ -631,10 +631,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃',
+                    title: 'ANO-MD',
                     body: 'Goodbye from  Group',
                     thumbnailUrl: leaveApiUrl,
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v',
+                    sourceUrl: 'https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -784,7 +784,7 @@ export async function deleteUpdate(message) {
       conn.user.id,
       `
             ≡ deleted a message 
-            ┌─⊷ 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
+            ┌─⊷ ANO 𝐌𝐃 𝐁𝐎𝐓 𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
             ▢ *Number :* @${participant.split`@`[0]} 
             └─────────────
             `.trim(),
@@ -906,3 +906,4 @@ watchFile(file, async () => {
   console.log(chalk.redBright('Update handler.js'))
   if (global.reloadHandler) console.log(await global.reloadHandler())
 })
+      
