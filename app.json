@@ -1,6 +1,6 @@
 {
-  "name": "𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓",
-  "description": "WhatsApp Bot Base using Baileys. Written in javascript developed by silva tech, shizo, xei and lazack",
+  "name": "ANO-MD",
+  "description": "WhatsApp Bot Base using Baileys. Written in javascript developed by Watson-xd, shizo, xei and lazack",
   "keywords": [
     "whatsapp bot",
     "ShizoBot",
@@ -8,6 +8,8 @@
     "oreo-bot",
     "Termux-WaBot",
     "WaBot-Base"
+    "ANO MD"
+    "ano-md"
   ],
 "env": {
       "PREFIX": {
