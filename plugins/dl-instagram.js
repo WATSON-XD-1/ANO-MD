@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, args, command, text }) => {
     const mediaType = mediaData.type;
     const mediaURL = mediaData.url_download;
 
-    let cap = `HERE IS YOUR REQUEST SENT BY 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 DEPLOY TODAY ASAP>,<`;
+    let cap = `HERE IS YOUR REQUEST SENT BY ANO MD BOT DEPLOY TODAY ASAP>,<`;
 
     if (mediaType === 'video') {
       
