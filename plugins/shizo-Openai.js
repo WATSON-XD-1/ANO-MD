@@ -40,7 +40,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       let data = await response.json()
       let result = data.completion
 
-      await conn.sendButton(m.chat,result, author, 'https://telegra.ph/file/2b96050ea3efcc108c228.jpg', [['Silva power', `.silva`]], null, [['Follow Me', `https://github.com/SilvaTechB`]], m)
+      await conn.sendButton(m.chat,result, author, 'https://telegra.ph/file/2b96050ea3efcc108c228.jpg', [['Ano power', `.watson`]], null, [['Follow Me', `https://github.com/WATSON-XD1/ANO-MD`]], m)
       m.react(done)
     }
   } catch (error) {
