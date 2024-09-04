@@ -14,7 +14,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   )
   m.reply(`💝 An invite link was sent to the user`)
 }
-handler.help = ['invite <254743706010>']
+handler.help = ['invite <263781330745>']
 handler.tags = ['group']
 handler.command = ['invite', 'invitar']
 handler.group = true
