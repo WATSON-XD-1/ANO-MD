@@ -21,13 +21,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     const { title, url, thumbnail } = result;
 
-    const captvid = '*FOLLOW 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 support CHANNEL, and just few second i will send THE SONG YOU REQUESTED*';
-    const sourceUrl = "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v";
+    const captvid = '*FOLLOW ANO 𝐌𝐃 𝐁𝐎𝐓 support CHANNEL, and just few second i will send THE SONG YOU REQUESTED*';
+    const sourceUrl = "https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b";
 
     conn.reply(m.chat, captvid, m, {
       contextInfo: {
         externalAdReply: {
-          title: `𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓`,
+          title: `ANO 𝐌𝐃 𝐁𝐎𝐓`,
           thumbnailUrl: thumbnail,
           sourceUrl,
           mediaType: 1,
@@ -59,7 +59,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
           mediaType: 2,
           mediaUrl: url,
           title: title,
-          body: 'HERE IS YOUR SONG WITH 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓',
+          body: 'HERE IS YOUR SONG WITH ANO 𝐌𝐃 𝐁𝐎𝐓',
           sourceUrl: url,
           thumbnail: await (await conn.getFile(thumbnail)).data
         }
@@ -77,7 +77,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     });
   } catch (error) {
     console.error(error);
-    throw '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓\n\nSomething went wrong 🥺 please try again later';
+    throw 'ANO 𝐌𝐃 𝐁𝐎𝐓\n\nSomething went wrong 🥺 please try again later';
   }
 };
 
