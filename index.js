@@ -7,7 +7,7 @@ import path from 'path'
 import { fileURLToPath } from 'url';
 
 figlet(
-  'silva-md-bot',
+  'ANO-MD',
   {
     font: 'Ghost',
     horizontalLayout: 'default',
