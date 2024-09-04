@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/WATSON-XD1/ANO-MD">
-    <img alt="Silva docs" height="300" src="https://telegra.ph/file/b7ae2db82899be94fb9c0.jpg">
+    <img alt="ANO docs" height="300" src="https://telegra.ph/file/b7ae2db82899be94fb9c0.jpg">
   </a>
 </p>
     
@@ -53,9 +53,9 @@
 <p align="center">Need help? please create an <a href="https://github.com/WATSON-XD1/ANO-MD/issues">issue</a></p>
 
 
- <h3>silva tech Stats</h3>
+ <h3>ANO MD Stats</h3>
 
-![ Stats](https://github-readme-stats.vercel.app/api/pin/?username=Watson-xd1&repo=ano-md&show_owner=true&theme=dark)
+![ Stats](https://github-readme-stats.vercel.app/api/pin/?username=WATSON-XD-1&repo=ano-md&show_owner=true&theme=dark)
 
 
    
