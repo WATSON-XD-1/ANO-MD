@@ -368,7 +368,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hello🤩${name} Congrats you have successfully deployed 𝕤𝕚𝕝𝕧𝕒-𝕧𝟝\nJoin the 𝕤𝕚𝕝𝕧𝕒-𝕧𝟝 channel for updates\nhttps://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v\nMUCH LOVE FROM SILVA TECH INC\nfor any query contact\n254743706010\n254700143167\n\n🍑🍆𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓💦☣\n\n\n*_THANK YOU FOR DEPLOYING 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓 NOW_*\n\nEnhance your WhatsApp experience with 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓💥`
+    let msgf = `Hello🤩${name} Congrats you have successfully deployed ANO-v5\nJoin the ANO-v5 channel for updates\nhttps://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b\nMUCH LOVE FROM ANO MD INC\nfor any query contact\n263781330745\n263789622747\n\n🍑🍆ANO 𝐌𝐃 𝐁𝐎𝐓💦☣\n\n\n*_THANK YOU FOR DEPLOYING ANO 𝐌𝐃 𝐁𝐎𝐓 NOW_*\n\nEnhance your WhatsApp experience with WATSON-XD BOT INCH💥`
 
     let gmes = conn.sendMessage(
       jid,
@@ -575,3 +575,4 @@ async function saafsafai() {
 setInterval(saafsafai, 10 * 60 * 1000)
 
 _quickTest().catch(console.error)
+            
