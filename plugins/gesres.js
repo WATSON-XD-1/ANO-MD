@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 
   m.reply(`*[SUPPORT TO 1K FOLLOWERS]*
 
-https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v
+https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b
 
 menu pop up`)
   conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
