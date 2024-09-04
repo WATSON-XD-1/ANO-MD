@@ -6,35 +6,35 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '254743706010', process.env.OWNER_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓', true],
-  ['254700143167', '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃', true]
+  [process.env.OWNER_NUMBER || '263781330745', process.env.OWNER_NAME || 'ANO 𝐌𝐃 𝐁𝐎𝐓', true],
+  ['263781339745', 'ANO 𝐌𝐃', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.botname = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.author = process.env.OWNER_NAME || 'ANO 𝐌𝐃 𝐁𝐎𝐓'
+global.botname = process.env.BOT_NAME || 'ANO 𝐌𝐃'
 global.oname = author
 global.bname = botname
 
 //Extra Shortcuts
-global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://github.com/SilvaTechB'
-global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/Jjj2lYrtGHc5WY2rUmC6JD'
-global.chlink = process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v'
+global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://github.com/WATSON-XD1'
+global.gclink = process.env.GROUP_LINK || 'https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b'
+global.chlink = process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VajjzuB9sBI890YffB1b'
  
 //Apikeys
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.stkpack = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.stkowner = process.env.OWNER_NAME || '© 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.packname = process.env.BOT_NAME || 'ANO 𝐌𝐃'
+global.stkpack = process.env.BOT_NAME || 'ANO 𝐌𝐃'
+global.stkowner = process.env.OWNER_NAME || '© ANO 𝐌𝐃 𝐁𝐎𝐓'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.maker = process.env.MAKER || 'Made with ANO 𝐌𝐃 𝐁𝐎𝐓'
 
 //global emojis
-global.wait = '*⌛ _𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _ANO MD BOT..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
@@ -43,7 +43,7 @@ global.xmoji = '🔥'
 
 //management
 global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
-global.stop = '*!! 🎭 Unfortunately 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓💔 !!*\nBot system is not Responding 🙃'
+global.stop = '*!! 🎭 Unfortunately ANO MD BOT💔 !!*\nBot system is not Responding 🙃'
 
 //TimeLines
 global.botdate = `*⫹⫺ Date:*  ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}`
@@ -55,11 +55,11 @@ global.getQrWeb = 0
 global.renderHost = 0
 global.replitHost = 0
 
-global.pairingNumber = "254743706010" //put your bot number here
+global.pairingNumber = "263781330745" //put your bot number here
 
-global.mods = ['254743706010','254700143167']
-global.prems = ['254700143167','254743706010']
-global.allowed = ['254743706010','254700143167']
+global.mods = ['263789622747','263781330745']
+global.prems = ['263789622747','263781330745']
+global.allowed = ['263789622747','263781330745']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
